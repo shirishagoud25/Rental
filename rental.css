@@ -1,0 +1,46 @@
+h1
+{ color: #5d4079;
+    background-color: #FFFFFF;
+    font:bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    border-radius: 6px;
+    border-spacing: 2px;
+    font: size 30px;;
+}
+h2
+{
+    color: #5d4079;
+    font:bold;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+
+}
+#submit
+{
+    color: #FFFFFF;
+    background-color: #5d4079;
+    border-radius: 6px;
+    padding: 3px;
+    font:bold;
+    text-align: center;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+td
+{
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 6px;
+    border-spacing: 5px;
+}
+body
+{
+    background-color: palevioletred;
+}

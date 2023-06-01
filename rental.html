@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="rental.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <h1>HappyPlace Rental Property Portal</h1>
+   <h2>property Details</h2>
+    <table>
+        <tr>
+            <td><select name="type" id="type">
+                <option value="Select the property type..">Select the property type..</option>
+                <option value="Independent">Independent</option>
+                <option value=" Gated">Gated</option>
+            </select></td>
+            <!-- 1st row - property type,age -->
+            <td><select name="age" id="age">
+                <option value="Select the property type..">Select the property type..</option>
+                <option value="0-1">0-1</option>
+                <option value="1-5">1-5</option>
+                <option value="5-10">5-10</option>
+                <option value="10+">10+</option>
+                </select></td>
+            </td>
+        </tr>
+        <!-- 2nd row-area,bedroom -->
+        <tr>
+            <td><input type="text"  id="sqft" placeholder="Enter the area in sq.ft* "required/></td>
+            <td><input type="text"  id="bhk" placeholder="Enter the no of bedrooms*"required/></td>
+        </tr>
+        <!-- 3 rd row date -->
+        <tr>
+            <td colspan="2"><textarea  id="address" cols="30" rows="10" placeholder="Enter the Address"></textarea></td>
+        </tr>
+        <!-- 4th row-range -->
+        <tr>
+            <td>Posted on:<br>
+                <input type="date"  id="postedon" required/></td>
+            <td>Available from:<br>
+                <input type="date"  id="availablefrom" required/></td>
+        </tr>
+        <!-- 5th row-chechbox -->
+        <tr>
+            <td>Rent:<input type="range"  id="rent" name="rent" min="6000" max="30000"></td>
+            <td>Deposit:<input type="range"  id="deposit" name="deposit" min="20000" max="200000"></td>
+        </tr>
+        <!-- 6th row -->
+        <tr>
+            <td><input type="text"  id="floor" placeholder="Enter the floor no* "required/></td>
+            <td><input type="checkbox" name="parking" id="parking">Parking facility</td>
+        </tr>
+        <!-- 7th row -->
+        <tr>
+            <td><input type="text" name="amenities" id="amenities" placeholder="Extra amenities"></td>
+            <td><input type="checkbox" name="lift" id="lift">lift <br>
+            <input type="checkbox" name="Maintanance staff" id="Maintanance staff">Maintanance staff<br>
+            <input type="checkbox" name="Park" id="Park">Park<br>
+            <input type="checkbox" name="Intercom" id="Intercom">Intercom<br>
+            <input type="checkbox" name="Furnishing" id="Furnishing">Furnishing</td>
+        </tr>
+        <!-- 8th row -->
+        <tr>
+            <td><input type="text"  id="oname" placeholder="Enter the owner name*" required/></td>
+            <td><input type="tel"  id="phno" placeholder="Contact number*" required/></td>
+        </tr>
+        <!-- 9th row -->
+        <tr>
+            <td><input type="button" name="submit" id="submit" value="POST PROPERTY"></td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
